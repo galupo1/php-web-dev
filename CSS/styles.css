@@ -44,7 +44,7 @@ body {
 }
 
 .section {
-  background-color: rgb(124, 217, 249);
+  background-color: purple;
   display: flex;
   justify-content: space-between;
   padding: 75px;
@@ -56,7 +56,7 @@ body {
 }
 .section p{
   margin: 0;
-  color: black;  
+  color: white;  
   font-style: italics;
   margin-right: 40px;
   font-family: "Helvetica";
@@ -71,5 +71,10 @@ body {
 
 .section h5{
   color: yellow;  
+}
+#blurry-bg-container{
+  background-image: url('images/78.jpg'); 
+  background-size: cover;
+  backdrop-filter: blur(10px); 
 }
 
