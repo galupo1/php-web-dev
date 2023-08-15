@@ -27,3 +27,6 @@ $query = "INSERT INTO registration(firstname, secondname, course, email ,telepho
 
         header("Location: ../contact.php");
         exit(); 
+
+        echo "This is the firstname" .$data['firstname']. '<a href="updatedata.php?id=' . $data['id'] .'"
+        while($data=mysqli_fetch_assoc($result)) {

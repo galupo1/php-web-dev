@@ -2,7 +2,7 @@
 <html>
       <head>
         <title>profile page</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="CSS/new.css">
         <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
       </head>
 
@@ -11,7 +11,7 @@
                              <!-- nav start -->
               <div class="row"  style="border: 3px solid darkgoldenrod;">
                     <?php
-                    include "nav.html"
+                    include "include/nav.html"
                     ?>
                </div>
          </div>
@@ -48,27 +48,7 @@
                                   </tr>
                           </table>
                             <table style="border-collapse: collapse; width: 30%; color: goldenrod;">
-                              <style>
-                                th {
-                                  font-style: italic;
-                                }
-                              </style>
-                              <style>
-                                table {
-                                  border-collapse: collapse;
-                                  width: 70%;
-                                }
-
-                                  th,
-                                  td {
-                                    border: 1px solid black;
-                                    padding: 5px;
-                                  }
-
-                                  th {
-                                    background-color: purple;
-                                  }
-                                </style>
+                              
                       <table style="border: 1px solid red;">
                         <tr>
                           <th>School</th>

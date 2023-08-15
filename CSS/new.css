@@ -1,0 +1,29 @@
+
+table {
+    border-collapse: collapse;
+    width: 700%;
+    color: black;
+  } 
+  th {
+    font-style: italic;
+}
+    
+    th {
+        font-style: italic;
+    }
+    
+    table {
+        border-collapse: collapse;
+        width: 70%;
+    }
+
+        th,
+        td {
+        border: 1px solid black;
+        padding: 5px;
+        }
+
+        th {
+        background-color: purple;
+        }
+                               

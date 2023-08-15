@@ -12,7 +12,7 @@
         <!-- nav start -->
            <div class="row"  style="border: 3px solid black;">
            <?php
-         include "nav.html";
+         include "include/nav.html";
         ?>
           </div>
         </div>
@@ -37,7 +37,10 @@
               </div>             
               </div>
            <!-- footer section -->
-         <div class="row" style="border: 4px solid black;">
+         
+         
+         
+           <div class="row" style="border: 4px solid black;">
           <footer class="bg-dark text-light py-3">
                 <div class="container text align-centre" >
                       <p>&copy;copyrite: </p>
