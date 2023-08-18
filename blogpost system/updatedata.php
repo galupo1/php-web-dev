@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BLOG</title>
+
     <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
 </head>
 <body>
@@ -22,6 +23,10 @@ $data = mysqli_fetch_assoc($result);
 
 ?>
 <form action="process_update_form.php" method="post">
+<?php
+      include "../include/nav.html";
+    ?>
+  </div>
           <input type="hidden" name= "id" value="<?php echo $data['id']; ?>">
                 <div class="col-md-5">
                     <div class="row justify-content-center"> 

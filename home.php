@@ -28,8 +28,9 @@
           }
           p {
             color: blue ;
-            font-size:20px;
-            font-style: inherit;
+            font-size:30px;
+            font-style: inherit; 
+            font-family: "Lobster", "Comic Sans", cursive;
           }
           </style>
         <div class="col-lg-6"></br>
@@ -39,9 +40,9 @@
               <h1> B. o. R .a .H </h1> </br>
               <P>
                 "Moving into a new home always gets exciting and creates more 
-                  options for infinite ideas". 
+                  options for infinite ideas".</br> 
                   B o R a H offers a wide variety of home decor bringing your ideas into reality. 
-              </p> 
+        </p> 
            </div>
           </div> 
         </div>       

@@ -25,6 +25,7 @@
             <h1> Register Here</h1>  
             <form action="registerform.php" method="post">
                 <div class="col-md-5">
+                    
                     <div class="row justify-content-center"> 
                         <div class="mb-3">
                             <label>userName:</label>       
@@ -44,7 +45,7 @@
                             name="message"></textarea>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-success">submit</button>
+                    <button type="Register" class="btn btn-success">Register</button>
                 
                 </div>
             </form>
