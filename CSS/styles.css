@@ -6,7 +6,7 @@ body {
     margin-top: 100px;
 }
 .carousel-container {
-  width: 300px;
+  width: 250px;
   height: 400px;
   position: relative;
   margin: 0 auto;
@@ -52,13 +52,14 @@ body {
   margin: 10rem auto 0 auto;
 }
 .section img {
-  height: 300px;
+  height: 30px;
 }
 .section p{
+ 
   margin: 0;
   color: white;  
-  font-style: italics;
-  margin-right: 40px;
+  font-style: inherit;
+  margin-bottom: 40px;
   font-family: "Helvetica";
   font-size: 70px
   font-face; 
@@ -76,5 +77,27 @@ body {
   background-image: url('images/78.jpg'); 
   background-size: cover;
   backdrop-filter: blur(10px); 
+}
+
+.section-container{
+  color: red;
+}
+
+.service-container h1{
+color:black;
+background-color: purple;
+height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+.animated-text {
+  font-size: 24px;
+  color: black;
+}
+}
+.animated-text span {
+  animation: type 5s infinite;
 }
 

@@ -1,4 +1,4 @@
-<!-- what you want to see from the database -->
+<!-- viewing from the database -->
 <?php
 
 require_once "dbconnect.php";

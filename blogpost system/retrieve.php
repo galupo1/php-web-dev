@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student registration details</title>
+    <title>Blogpost System</title>
+    <link rel="stylesheet" href="CSS/#.css">
     <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
 </head>
 <body>
@@ -15,7 +16,9 @@
     ?>
   </div>
 <div class="row"  style="border: 3px solid blue;">
- <div class="col-lg-5">Other content </div>
+
+ <div class="col-lg-2"></br></div>
+ 
   <div class="col-lg-7">        
               <table class="table table-border table-striped">
                 <thead class= "thead-light">
@@ -59,8 +62,8 @@
   ?>
   </div>
 
+</div>  
+</div>
 
-</div>
-</div>
 </body>
 </html>

@@ -26,4 +26,23 @@ table {
         th {
         background-color: purple;
         }
-                               
+        
+        .blurry-image {
+            position: relative;
+            display: inline-block;
+          }
+          .blurry-image img{
+            filter: blur(4px);
+          }
+          .blurry-image .image-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: darkorange;
+            font-size: 30px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+          }
+         

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Student details</title>
+        <title> contact page</title>
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
     </head>
@@ -12,59 +12,53 @@
         <div class="row"  style="border: 3px solid blue;">
         <?php
          include "include/nav.html";
-        ?>
+        ?> 
         </div>
         <!-- contact row -->
         <div class="row" style="border: 3px solid darkgreen;">
-            <h1> contact </h1>
-
-<form action="connect.php" method="post">
+        <div class="col-lg-6">
+           <?php
+                include "sliderz3.php";
+                ?>
+        </div> 
+        <div class="col-lg-6"></br>
+            <h1> Register Here</h1>  
+            <form action="registerform.php" method="post">
                 <div class="col-md-5">
                     <div class="row justify-content-center"> 
                         <div class="mb-3">
-                            <label>firstname:</label>       
-                            <input type="text" class="form-control" id="name" placeholder="Enter your firstname"
-                            name="firstname">
+                            <label>userName:</label>       
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name"
+                            name="name">
                         </div>
 
                         <div class="mb-3">
-                            <label>secondname:</label>
-                            <input type="text" class="form-control"  placeholder="Enter your secondname"
-                            name="secondname">
+                            <label>Email:</label>
+                            <input type="text" class="form-control"  placeholder="Enter your email"
+                            name="email">
                         </div> 
 
                         <div class="mb-3">
-                            <label>course:</label>
-                            <input class="form-control" rows="5" placeholder="Type your course here"
-                            name="course">
-                        </div>
-                        <div class="mb-3">
-                            <label>email:</label>
-                            <input class="form-control" rows="5" placeholder="Enter your email"
-                            name="email">
-                        </div>
-                        <div class="mb-3">
-                            <label>telephone:</label>
-                            <input class="form-control" rows="5" placeholder="Enter telephone"
-                            name="telephone">
+                            <label>Messages:</label>
+                            <textarea class="form-control" rows="5" placeholder="Type your message here"
+                            name="message"></textarea>
                         </div>
                     </div>
                     <button type="submit" class="btn btn-success">submit</button>
                 
                 </div>
             </form>
-            </div>
+        </div>
 
         <!-- copyrit row -->
         <div class="row" style="border: 4px solid red;">
-            <footer class="bg-dark text-light py-3">
-              <div class="container text align-centre" >
-                     <p>&copy;2023 Freecopy right</p>
-              </div>
-            </footer>
+        <?php
+          include "footer.php";
+        ?>
         </div>
 
     </div>
     </body>
 </html>
-?>
+
+
