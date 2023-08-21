@@ -14,6 +14,4 @@ echo "Connected to MySQL";
 }
 else 
 echo "connection successful";
-
-
 ?>

@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"]=="POST"){
     
 
     try{
-        require_once "blogpost system/dbconnect.php";
+        require_once "dbconnect.php";
         $query = "INSERT INTO registration_form(userName, email, messages)
         VALUES(:userName, :email, :messages);";
         $stmt = $dbconnect->prepare($query);

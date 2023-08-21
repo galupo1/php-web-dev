@@ -7,9 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BLOG</title>
 
-    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
 </head>
 <body>
+<div class="container-fluid">
+<div class="row"  style="border: 3px solid blue;">
 <?php
 if (isset($_GET['id']) && is_numeric($_GET['id'])) {
     $id = $_GET['id'];
@@ -24,11 +26,19 @@ $data = mysqli_fetch_assoc($result);
 ?>
 <form action="process_update_form.php" method="post">
 <?php
-      include "../include/nav.html";
-    ?>
+      include "include/nav.html";
+    ?>  
   </div>
           <input type="hidden" name= "id" value="<?php echo $data['id']; ?>">
-                <div class="col-md-5">
+          
+            <div class="col-md-12">
+                <div class="col-lg-6"></br>
+           <?php
+                include "sliderz4.php";
+                ?>
+        </div> 
+      
+        <div class="col-lg-4"></br>
                     <div class="row justify-content-center"> 
                         <div class="form-group mb-3">
                             <label>title:</label>       
@@ -56,6 +66,11 @@ $data = mysqli_fetch_assoc($result);
                 
                 </div>
             </form>
+            <div class="row" style="border: 4px solid red;">
+            <?php
+          include "footer.php";
+        ?>
+        </div>
             <?php
          }
         ?>

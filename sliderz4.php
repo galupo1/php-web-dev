@@ -19,7 +19,7 @@
         </div>
 
         <div class="carousel-item">
-            <img src="images/image3.jpg" height=100%, width=100% alt="image1"/>
+            <img src="images/image7 (3).jpg" height=100%, width=100% alt="image1"/>
             <div class="overlay"></div>
             <div class="carousel-content">
                 <h3 style="font-size:50px;"></h3>

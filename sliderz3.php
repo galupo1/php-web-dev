@@ -1,7 +1,7 @@
 <div id="mycarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="images/78.jpg" height=100%, width=100% alt="image1"/>
+            <img src="images/image7 (2).jpg" height=100%, width=100% alt="image1"/>
             <div class="overlay"></div>
             <div class="carousel-content">
                 <h3 style="font-size:50px;"></h3>

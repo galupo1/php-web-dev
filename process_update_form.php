@@ -1,4 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> blog page</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    </head>
+ <body>
+ <div class="container-fluid">
+                 <!-- nav row -->
+        <div class="row"  style="border: 3px solid blue;">
 <?php
+include "include/nav.html";
 if ($_SERVER["REQUEST_METHOD"]== "POST"){
     $id = $_POST["id"];
     $title=$_POST["title"];
@@ -21,5 +33,8 @@ if ($_SERVER["REQUEST_METHOD"]== "POST"){
             die ("Query failed: " . $e->getmessage());
         }
     }
-
 ?>
+</div>
+</div>
+</body>
+</html>

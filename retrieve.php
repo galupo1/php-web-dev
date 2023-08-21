@@ -5,21 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blogpost System</title>
     <link rel="stylesheet" href="CSS/#.css">
-    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
 </head>
 <body>
               <!--geting data from data base  -->
 <div class="container-fluid">
   <div class="row"  style="border: 3px solid red;">
     <?php
-      include "../include/nav.html";
+      include "include/nav.html";
     ?>
   </div>
 <div class="row"  style="border: 3px solid blue;">
-
- <div class="col-lg-2"></br></div>
- 
-  <div class="col-lg-7">        
+ <div class="col-lg-6"></br>
+ <?php
+                include "sliderz3.php";
+                ?>
+   </div> 
+   <div class="col-lg-6">           
+  <div class="col-lg-12">        
               <table class="table table-border table-striped">
                 <thead class= "thead-light">
                 <tr>
@@ -61,9 +64,9 @@
   }
   ?>
   </div>
-
 </div>  
 </div>
 
 </body>
+
 </html>

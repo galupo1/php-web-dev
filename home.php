@@ -39,9 +39,9 @@
             <div class ="text"> 
               <h1> B. o. R .a .H </h1> </br>
               <P>
-                "Moving into a new home always gets exciting and creates more 
+                <em>"Moving into a new home always gets exciting and creates more 
                   options for infinite ideas".</br> 
-                  B o R a H offers a wide variety of home decor bringing your ideas into reality. 
+                  <strong>B o R a H</strong> offers a wide variety of home decor bringing your ideas into reality.</em> 
         </p> 
            </div>
           </div> 
